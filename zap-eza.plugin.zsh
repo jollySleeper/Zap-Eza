@@ -13,9 +13,9 @@ alias ls='eza --group-directories-first --icons'
 # Related to https://github.com/ogham/exa/issues/978
 if eza --version | grep -q '+git';
 then
-	alias ll='ls -lh --git'
+	alias ll='ls -lg --git'
 else
-	alias ll='ls -lh'
+	alias ll='ls -lg'
 fi
 
 alias la='ll -a'

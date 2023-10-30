@@ -1,12 +1,14 @@
-# eza
+# Zap-Eza
 Override `ls` and `tree` commands to use [eza](https://github.com/eza-community/eza) instead
+
+> Note: This is fork of [zap-zsh/exa](https://github.com/zap-zsh/exa) with some minor changes.
 
 ## Install
 Using the [:zap: Zap](https://www.zapzsh.org/) minimal zsh plugin manager, add the following to your `.zshrc`
 
 ```sh
 # Install plugin
-plug "zap-zsh/exa"
+plug "jollySleeper/zap-exa"
 ```
 
 ## ⚠️ Special Attention
@@ -17,7 +19,7 @@ Simply put it **after** supercharge declaration in your `.zshrc` like this:
 # ...
 
 plug "zap-zsh/supercharge"
-plug "zap-zsh/exa"
+plug "jollySleeper/zap-exa"
 
 # ...
 ```
@@ -48,4 +50,3 @@ Hidden files/folders are excluded, if you want to include them simply add `-a` f
 It will recurse on every directory producing, in some situations, very long output. You can limit the recursion with `-L <N>`
 
 ![image](https://user-images.githubusercontent.com/82162277/204248408-f127ceb2-e739-468e-94e5-b46f9494a041.png)
-# zap-eza Initialized
